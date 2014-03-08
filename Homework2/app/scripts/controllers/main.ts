@@ -16,7 +16,7 @@ module auction.controllers {
           }
 
           $scope.handleError = function(data,status) {
-              console.log(status);
+              //console.log(status);
           }
 
           $scope.search = function() {
