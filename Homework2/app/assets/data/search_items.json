@@ -1,0 +1,18 @@
+[
+    {
+        "img": "assets/img/01.jpg",
+        "title": "Item's title",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "today": "6h left",
+        "watchers": "17",
+        "current_price": "$ 1234"
+    },
+    {
+        "img": "assets/img/02.jpg",
+        "title": "Item's title",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "today": "6h left",
+        "watchers": "17",
+        "current_price": "$ 1234"
+    }
+]
