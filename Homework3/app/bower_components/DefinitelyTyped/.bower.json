@@ -1,0 +1,13 @@
+{
+  "name": "DefinitelyTyped",
+  "homepage": "https://github.com/borisyankov/DefinitelyTyped",
+  "_release": "b80120580a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "b80120580abb03b03833e50f617a0786c31cb50b"
+  },
+  "_source": "git://github.com/borisyankov/DefinitelyTyped.git",
+  "_target": "*",
+  "_originalSource": "DefinitelyTyped"
+}

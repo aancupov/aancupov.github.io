@@ -1,0 +1,58 @@
+<div>
+    Hello {{model.idd}} {{model.item.title}}
+</div>
+
+<div id="search-result-page" class="container">
+
+    <!-- Breadcrumb -->
+    <div class="row">
+        <ul class="breadcrumb col-lg-10 col-md-8 col-sm-12">
+            <li><a id="link-2-home" href="#">Home</a> <span class="divider"></span></li>
+            <li>Category title</li>
+            <li class="active">Item</li>
+        </ul>
+        <a class="btn btn-primary col-lg-2 col-md-4 col-sm-12" ng-click="model.showSearchForm=!model.showSearchForm">Find more</a>
+    </div>
+    <br/><br/>
+
+    <auction-search ng-show="model.showSearchForm"></auction-search>
+
+    <div class="row">
+        <!-- Image-->
+        <div class="col-lg-3 col-md-6 col-sm-5 col-xs-5">
+            <a href="javascript:void(0)"><img src="{{model.item.thumb}}" alt="" class="img-responsive"></a>
+            <div class="row">
+                <img src="{{model.item.thumb}}" alt="" class="img-responsive col-lg-4 col-md-4 col-sm-4">
+                <img src="{{model.item.thumb}}" alt="" class="img-responsive col-lg-4 col-md-4 col-sm-4">
+                <img src="{{model.item.thumb}}" alt="" class="img-responsive col-lg-4 col-md-4 col-sm-4">
+            </div>
+            <!-- Carusel -->
+            <div class="row">
+                <i class="glyphicon glyphicon-eye-open col-lg-4 col-md-4 col-sm-4"></i>
+                <B class="col-lg-4 col-md-4 col-sm-4">{{model.item.watchers}}</B>
+                <B col-lg-4 col-md-4 col-sm-4>Watch</B>
+            </div>
+        </div>
+        <!-- Title-->
+        <div class="product-description-holder col-lg-8 col-md-6 col-sm-7">
+            <h1><a href="javascript:void(0)">{{model.item.title}}</a></h1>
+            <p>Seller starmotors(135) 100% Positive feedback</p>
+        </div>
+        <!-- Current price -->
+        <div class="col-lg-4 col-md-6 colsm-12 col-xs-12">
+            Current Price<br/>
+            <B>{{model.item.price}}</B><br/>
+            <B>{{model.item.timeleft}}</B><br/>Today 15:23
+        </div>
+        <!-- Place bid -->
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <input class="form-control"><br/>
+            <button class="form-control">Place bid</button>
+        </div>
+        <!-- Description -->
+        <div class="product-description-holder col-lg-7 col-md-12 col-sm-12 col-xs-12">
+            <p><b>Item's description:</b> {{model.item.description}}</p>
+        </div>
+    </div>
+
+</div>

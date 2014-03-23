@@ -1,0 +1,58 @@
+<!-- Form -->
+<form role="form">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <label for="inputProduct">Product</label>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                    <input class="form-control" type="text" id="inputProduct" placeholder="Product title">
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                    <select class="form-control">
+                        <option>Category</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <label for="minPrice">Current Price</label>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <input class="form-control" type="text" id="minPrice" placeholder="$ 1000">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <input class="form-control" type="text" id="maxPrice" placeholder="$ 1500">
+                </div>
+                <br/><br/>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <input class="form-control" type="range" min="10" max="120" step="5" value="30"/>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <label for="auctionDate">Max Auction Close Date</label><br/>
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                    <input  class="form-control" type="text" id="auctionDate" placeholder="01/01/2014">
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <button class="form-control"><i class="glyphicon glyphicon-calendar"></i> </button>
+                </div>
+                <br/><br/>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                    <label for="numberOfBids">Number of Bids</label>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <input class="form-control" type="number" id="numberOfBids" placeholder="3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <!-- Button Find now-->
+    <div class="row">
+        <div class="col-lg-12" align="center">
+            <button class="btn btn-large" type="button">Find now</button>
+        </div>
+    </div>
+</form>
